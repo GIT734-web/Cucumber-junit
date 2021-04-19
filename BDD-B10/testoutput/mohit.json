@@ -1,0 +1,128 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11276000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am able to navigate onto the login page",
+            "match": {
+              "location": "StepDefination.Steps.i_am_able_to_navigate_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-19T12:11:17.339Z",
+        "line": 35,
+        "name": "Login with Negative data",
+        "description": "",
+        "id": "login-features;login-with-negative-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I entered the username as \"Mohit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mohit\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.Steps.i_entered_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I entered the password as \"Mohit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mohit\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.Steps.i_enterd_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 870000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "i click on the Login Button",
+            "match": {
+              "location": "StepDefination.Steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "i should see a error message as  \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid credentials\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefination.Steps.i_should_see_a_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@InvalidLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Login features",
+    "description": "This feature includes scenario that would validate the following feature.\n1)Login as Admin\n2)Login as linda darshan\n3)Login with Negative data",
+    "id": "login-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

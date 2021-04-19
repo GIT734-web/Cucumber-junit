@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.872">
+<testcase classname="Login features" name="Login with Negative data" time="12.604">
+<system-out><![CDATA[Given I am able to navigate onto the login page.............................passed
+When I entered the username as "Mohit"......................................passed
+And I entered the password as "Mohit".......................................passed
+And i click on the Login Button.............................................passed
+Then i should see a error message as  "Invalid credentials".................passed
+]]></system-out>
+</testcase>
+</testsuite>
